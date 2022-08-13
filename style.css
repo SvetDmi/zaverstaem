@@ -1,0 +1,173 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #efe6e4;
+  font-family: "Montserrat", "Arial", sans-serif;
+  color: #533738;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.section {
+  margin: 65px auto 0 auto;
+}
+
+.section__title {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.button {
+  text-decoration: none;
+  width: 310px;
+  padding: 25px 0;
+  background-color: #cc8b86;
+  color: #533738;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  max-width: 1400px;
+  max-height: 715px;
+  background: url("./images/headerFon.jpg") no-repeat 0 100%;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 38px;
+  max-width: 1200px;
+}
+
+.header__logo {
+  width: 90px;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.header__menu > li {
+  margin-right: 26px;
+  font-size: 16px;
+}
+
+.header__down {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 21px 0 165px 0;
+}
+
+.header__title {
+  font-size: 50px;
+  line-height: 62px;
+  margin: 94px 0 24px 0;
+}
+
+.about__content {
+  display: flex;
+  max-width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about__content > img {
+  width: 444px;
+}
+
+.about__content > p {
+  width: 528px;
+  margin: 0;
+}
+
+.about__down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8d7370;
+  color: #ffffff;
+  padding: 85px 182px;
+  margin: 20px 0 0 0;
+  list-style: none;
+}
+
+.about__down > li {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.about__down > li > p {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+.works {
+  max-width: 1200px;
+}
+
+.works__title {
+  text-align: start;
+}
+
+.works__description > h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.works__description > p {
+  color: #ffffff;
+}
+
+.team,
+.how {
+  background-color: #e2c4ba;
+}
+
+.team > p {
+  margin: 0;
+}
+
+.how {
+  margin: 0;
+}
+
+.reviews {
+}
+
+.request {
+  display: flex;
+  background-color: #8d7370;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 37px auto;
+}
+
+.footer > p {
+  margin: 0;
+}
