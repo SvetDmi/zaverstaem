@@ -1,0 +1,41 @@
+.how {
+  background-color: #e2c4ba;
+  width: 100%;
+
+  margin: 0;
+  padding-bottom: 80px;
+}
+
+.how__list {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.how__list > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how__number {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  align-self: center;
+
+  padding: 0;
+  background-color: #8d7370;
+  font-size: 30px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+.how__text {
+  text-align: center;
+}

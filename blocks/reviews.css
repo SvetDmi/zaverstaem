@@ -1,0 +1,45 @@
+.reviews > div {
+  display: flex;
+  max-width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews__arrow {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  background-color: #cc8b86;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: none;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.reviews__arrow_left {
+  background-image: url("../images/ArrowLeft.svg");
+  margin-right: 29px;
+}
+
+.reviews__arrow_right {
+  background-image: url("../images/ArrowRight.svg");
+  margin-left: 29px;
+}
+
+.reviews__quote {
+  margin-right: 20px;
+}
+
+.reviews__quote > p {
+  margin-bottom: 30px;
+}
+
+.reviews__gallery > img {
+  margin-bottom: 24px;
+}

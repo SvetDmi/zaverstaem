@@ -1,0 +1,24 @@
+.team {
+  background-color: #e2c4ba;
+  width: 100%;
+}
+
+.team__title {
+  padding-top: 50px;
+}
+
+.team__gallery {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+  gap: 38px;
+}
+
+.team__gallery > div {
+  width: 320px;
+}
+
+.team__gallery > div > p {
+  margin: 10px 0 35px 0;
+}

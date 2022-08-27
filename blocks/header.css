@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  /* max-width: 1400px; */
+  min-height: 715px;
+  background: url("../images/headerFon.jpg") no-repeat 0 100%;
+  background-color: #cc8b86;
+  background-size: cover;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 38px;
+  max-width: 1200px;
+}
+
+.header__logo {
+  width: 90px;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.header__menu > li {
+  margin-right: 26px;
+  font-size: 16px;
+}
+
+.header__down {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 21px 0 165px 0;
+}
+
+.header__title {
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 400;
+  margin: 94px 0 24px 0;
+}
